@@ -2457,19 +2457,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 432f232fddaa8c64fae83a49b5cc005b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  <InitialTime>k__BackingField: 60
+  <InitialTime>k__BackingField: 80
   reducedTime: 1
   <Gold>k__BackingField: 0
   _goldMatch3: 100
   _goldMatch4: 200
   _goldMatch5: 300
   <Progress>k__BackingField: 0
-  _progressMax: 100
+  _progressMax: 200
   _progressMatch3: 1
   _progressMatch4: 2
   _progressMatch5: 3
-  _needGold: 100
-  _conversionTime: 10
+  _needGold: 500
+  _conversionTime: 20
   _timeText: {fileID: 515285354}
   _goldText: {fileID: 207241}
   _progressBar: {fileID: 1991657786}
@@ -3797,9 +3797,9 @@ MonoBehaviour:
   _two: 2
   _four: 8
   _five: 16
-  _initialProbability: 0
+  _initialProbability: 1
   _currenProbability: 0
-  _increasedProbability: 3
+  _increasedProbability: 10
   _threshold: 13
 --- !u!4 &2122584005
 Transform:
