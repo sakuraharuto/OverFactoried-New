@@ -17,6 +17,11 @@ public class GameManager : MonoBehaviour
     /// <summary>
     /// 单例
     /// </summary>
+    /// 
+
+    public GameObject cube;
+   
+
     public static GameManager Instance { get; private set; }
 
     #region Data
@@ -103,18 +108,22 @@ public class GameManager : MonoBehaviour
         MapManager.Instance.OnMatchList.AddListener(AddGold);
         MapManager.Instance.OnMatchList.AddListener(AddProgress);
 
+        
+
         //暂停按钮
         _PauseBtn.onClick.AddListener(() =>
         {
             if (!IsPause)
             {
                 //暂停游戏
+                cube.SetActive(true);
                 _PauseBtn.GetComponentInChildren<Text>().text = "Continue";
                 PauseGame();
             }
             else
             {
                 //继续游戏
+                cube.SetActive(false);
                 _PauseBtn.GetComponentInChildren<Text>().text = "Pause";
                 ContinueGame();
             }
