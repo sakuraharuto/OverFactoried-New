@@ -63,5 +63,21 @@ PrefabInstance:
       propertyPath: type
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 2619239693793622732, guid: 255f2f5ecd9b6704c9d488561d727847, type: 3}
+      propertyPath: OnCreate.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2619239693793622732, guid: 255f2f5ecd9b6704c9d488561d727847, type: 3}
+      propertyPath: OnCreate.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2619239693793622732, guid: 255f2f5ecd9b6704c9d488561d727847, type: 3}
+      propertyPath: OnCreate.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1526181076820276133, guid: 255f2f5ecd9b6704c9d488561d727847, type: 3}
+    - target: {fileID: 2619239693793622732, guid: 255f2f5ecd9b6704c9d488561d727847, type: 3}
+      propertyPath: OnCreate.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 255f2f5ecd9b6704c9d488561d727847, type: 3}

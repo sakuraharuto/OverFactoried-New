@@ -83,6 +83,22 @@ PrefabInstance:
       propertyPath: type
       value: 32
       objectReference: {fileID: 0}
+    - target: {fileID: 2619239693793622732, guid: 255f2f5ecd9b6704c9d488561d727847, type: 3}
+      propertyPath: OnCreate.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2619239693793622732, guid: 255f2f5ecd9b6704c9d488561d727847, type: 3}
+      propertyPath: OnCreate.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2619239693793622732, guid: 255f2f5ecd9b6704c9d488561d727847, type: 3}
+      propertyPath: OnCreate.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 11500000, guid: c95e5a1b817145d9a918974023e2d92c, type: 3}
+    - target: {fileID: 2619239693793622732, guid: 255f2f5ecd9b6704c9d488561d727847, type: 3}
+      propertyPath: OnCreate.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6317121846408885758, guid: 255f2f5ecd9b6704c9d488561d727847, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 255f2f5ecd9b6704c9d488561d727847, type: 3}

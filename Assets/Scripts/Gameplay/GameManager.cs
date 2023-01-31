@@ -1,7 +1,5 @@
 using DG.Tweening;
 using Sirenix.OdinInspector;
-using Sirenix.OdinInspector.Editor;
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -32,7 +30,7 @@ public class GameManager : MonoBehaviour
     /// <summary>
     /// 当前剩余时间
     /// </summary>
-    public float RemainingTime { get; private set; }
+    private float RemainingTime { get; set; }
 
     [HideInEditorMode, Tooltip("每秒减去时间"), ReadOnly]
     public float reducedTime = 1f;
@@ -83,6 +81,8 @@ public class GameManager : MonoBehaviour
     GameObject _winPanel;
     [SerializeField, Tooltip("游戏失败面板")]
     GameObject _losePanel;
+    [SerializeField, Tooltip("右侧信息面板")]
+    public Text _infoBoard;
     #endregion
 
     public bool IsPause { get; private set; } = false;

@@ -78,6 +78,10 @@ public class FireExtinguisher : MonoBehaviour, IDragHandler, IBeginDragHandler, 
                 {
                     Remove();
                 }
+                else
+                {
+                    //灭火失败
+                }
             }
             return;
         }
