@@ -108,7 +108,10 @@ public class GameManager : MonoBehaviour
         MapManager.Instance.OnMatchList.AddListener(AddGold);
         MapManager.Instance.OnMatchList.AddListener(AddProgress);
 
-        
+        // 初始为暂停状态
+        PauseGame();
+        IsPause = true;
+        _PauseBtn.GetComponentInChildren<Text>().text = "Continue";
 
         //暂停按钮
         _PauseBtn.onClick.AddListener(() =>
