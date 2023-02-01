@@ -30,7 +30,7 @@ public class GameManager : MonoBehaviour
     /// <summary>
     /// 当前剩余时间
     /// </summary>
-    private float RemainingTime { get; set; }
+    public float RemainingTime { get; set; }
 
     [HideInEditorMode, Tooltip("每秒减去时间"), ReadOnly]
     public float reducedTime = 1f;

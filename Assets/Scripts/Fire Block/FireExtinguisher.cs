@@ -80,7 +80,9 @@ public class FireExtinguisher : MonoBehaviour, IDragHandler, IBeginDragHandler, 
                 }
                 else
                 {
-                    //灭火失败
+                    //灭火失败 -10s
+                    GameManager.Instance.RemainingTime -= 10;
+                    Remove();
                 }
             }
             return;
