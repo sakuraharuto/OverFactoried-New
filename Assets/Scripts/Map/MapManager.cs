@@ -267,7 +267,7 @@ public class MapManager : MonoBehaviour
     private IEnumerator Match(List<List<Jewel>> matchList)
     {
         //交换宝石到消除宝石的等待时间
-        const float waitTime = 0.2f;
+        const float waitTime = 0.1f;
         var wait = new WaitForEndOfFrame();
 
         status = MapStatus.Fall;

@@ -102,7 +102,7 @@ public class Jewel : MonoBehaviour
     public Tween SwapMove(int x, int y)
     {
         //交换时间
-        const float time = 0.3f;
+        const float time = 0.2f;
 
         //移动
         Tween tween = transform.DOMove(MapManager.Instance.GetGridPostion(x, y), time).SetEase(Ease.InQuad).
