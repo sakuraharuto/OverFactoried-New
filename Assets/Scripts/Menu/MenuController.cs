@@ -10,6 +10,16 @@ public class MenuController : MonoBehaviour
         SceneManager.LoadScene("Scenes/SampleScene");
     }
 
+    public void ViewHelp()
+    {
+        SceneManager.LoadScene("Scenes/Help");
+    }
+
+    public void BackToMenu()
+    {
+        SceneManager.LoadScene("Scenes/MainMenu");
+    }
+
     public void ExitGame()
     {
         Debug.Log("You quit the game");
