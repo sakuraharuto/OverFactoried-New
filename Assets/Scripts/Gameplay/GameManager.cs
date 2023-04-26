@@ -17,6 +17,8 @@ public class GameManager : MonoBehaviour
     /// </summary>
     /// 
 
+    public AudioClip time;
+
     public GameObject cube;
    
 
@@ -98,6 +100,10 @@ public class GameManager : MonoBehaviour
         _progressBar.maxValue = _progressMax;
 
         Time.timeScale = 1f;
+
+   
+        
+
     }
 
     void Start()
@@ -164,6 +170,17 @@ public class GameManager : MonoBehaviour
             yield return wait;
 
             RemainingTime -= reducedTime;
+            if(RemainingTime<=10)
+            {
+                _timeText.color = Color.red;
+                GetComponent<AudioSource>().clip = time;
+                GetComponent<AudioSource>().Play();//播放
+            }
+            else
+            {
+                _timeText.color = Color.green;
+                GetComponent<AudioSource>().Stop();
+            }
         }
 
         //游戏失败结束

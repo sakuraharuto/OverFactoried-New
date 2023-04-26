@@ -43,7 +43,8 @@ public class JewelFactory : MonoBehaviour
         if (_pools.ContainsKey(type))
         {
             return _pools[type].Get();
-        }
+          
+        } 
         else
         {
             Debug.LogError($"获取宝石失败！mapItemInfo中无类型{type.ToString()}的宝石!");

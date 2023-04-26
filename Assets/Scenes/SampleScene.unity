@@ -3333,6 +3333,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 432f232fddaa8c64fae83a49b5cc005b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  time: {fileID: 0}
   cube: {fileID: 1328594882}
   <InitialTime>k__BackingField: 80
   reducedTime: 1
@@ -4843,7 +4844,7 @@ MonoBehaviour:
   _five: 16
   _initialProbability: 1
   _currenProbability: 0
-  _increasedProbability: 10
+  _increasedProbability: 20
   _threshold: 13
 --- !u!4 &2122584005
 Transform:
